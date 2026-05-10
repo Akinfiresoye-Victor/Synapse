@@ -34,6 +34,7 @@ your_project/
     └── server.log     ← Server activity log (created automatically)
 ```
 
+<img width="1600" height="860" alt="synapse" src="https://github.com/user-attachments/assets/9c13dab2-2a56-43aa-9aa3-b599684e8cc0" />
 ---
 
 ## Quick Start
