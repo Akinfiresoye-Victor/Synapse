@@ -1,4 +1,4 @@
-# Synapse v1.0
+# Synapse v2.0
 
 A fast, terminal-based file transfer and chat application built entirely with Python's standard library. No pip installs. No frameworks. Just raw sockets.
 
@@ -50,7 +50,7 @@ You will see something like:
 
 ```
 ========================================================
-   Synapse  Server  v1.0
+   Synapse  Server  v2.0
    Listening  :  192.168.1.5:1234
    Files dir  :  /home/victor/server_files
    Chunk size :  128 KB
@@ -83,7 +83,7 @@ Press Enter on the port if you left it as default (1234). If connection succeeds
 
 ```
   ╔══════════════════════════════════════════════╗
-  ║   Synapse  ·  Client  v1.0            ║
+  ║   Synapse  ·  Client  v2.0            ║
   ╠══════════════════════════════════════════════╣
   ║  1  Upload a file                           ║
   ║  2  Upload multiple files / folder          ║
