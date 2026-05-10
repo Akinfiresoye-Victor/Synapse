@@ -1,1 +1,4 @@
-.env/
+env/
+logs/
+client_downloads/
+server_files/
