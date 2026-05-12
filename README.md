@@ -33,7 +33,6 @@ your_project/
 └── logs/
     └── server.log     ← Server activity log (created automatically)
 ```
-
 ---
 
 ## Quick Start
@@ -57,7 +56,7 @@ You will see something like:
    Idle limit :  300s
 ========================================================
 ```
-
+<img width="1600" height="860" alt="synapse" src="https://github.com/user-attachments/assets/9c13dab2-2a56-43aa-9aa3-b599684e8cc0" />
 Note down the IP address shown (`192.168.1.5` in this example). Clients need it.
 
 ### Step 2 — Connect a client
@@ -97,6 +96,7 @@ Press Enter on the port if you left it as default (1234). If connection succeeds
   ║  q  Quit                                    ║
   ╚══════════════════════════════════════════════╝
 ```
+<img width="1600" height="860" alt="synapse2" src="https://github.com/user-attachments/assets/78c84cb6-ac5c-4e48-b2b5-440ed2a718c2" />
 
 ---
 
@@ -149,6 +149,8 @@ Lists every file stored on the server with its size, without downloading anythin
     3  photo.jpg                                 800.0 KB
 ```
 
+
+
 ---
 
 ### 4 — Download a file
@@ -158,7 +160,7 @@ Shows the list of available files and lets you pick one by number. A progress ba
 Downloaded files land in `client_downloads/`. If a file with the same name already exists, a timestamp is added to the new one so nothing is overwritten.
 
 ---
-
+<img width="1600" height="860" alt="synapse3" src="https://github.com/user-attachments/assets/3d20d6ad-3844-4f16-8b9b-a3fb815393bd" />
 ### 5 — Group chat
 
 Sends a message to every connected client at once. All clients in chat mode will see each other's messages with a timestamp and the sender's display name (set with option 8).
@@ -168,6 +170,7 @@ A background thread listens for incoming messages while you type, so you never m
 Type `quit` to leave chat and return to the menu.
 
 ---
+<img width="1600" height="860" alt="synapse4" src="https://github.com/user-attachments/assets/d62f8624-c15b-416f-a910-3b60ce9693c2" />
 
 ### 6 — Ping server
 
@@ -334,3 +337,4 @@ This is a limitation of raw terminal input — there is no proper TUI (terminal 
 ## Stopping the Server
 
 Press `Ctrl+C` in the server terminal. The server will close all active client connections cleanly before exiting.
+<img width="1600" height="860" alt="synapse5" src="https://github.com/user-attachments/assets/4ca97805-8b9a-48e6-a4ec-a9d45f4ad521" />
