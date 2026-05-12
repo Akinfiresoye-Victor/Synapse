@@ -2,3 +2,5 @@ env/
 logs/
 client_downloads/
 server_files/
+__pycache__/
+PRODUCT_SPEC.md
